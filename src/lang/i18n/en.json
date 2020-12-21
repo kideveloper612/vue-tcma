@@ -1,0 +1,283 @@
+{
+    "app": {
+        "login": {
+            "instructions": "Please enter your email address and password to login.",
+            "failure": "Unfortunately your email address or password was incorrect.  Please try again.",
+            "button": "Login",
+            "email_field": "Email Address:",
+            "password_field": "Password:",
+            "title": "Please Login",
+            "forgot_password": "Forgot Your Password?",
+            "forgot_button": "Reset Password"
+        },
+        "users": {
+            "list": {
+                "title": "Users",
+                "add_button": "Add User",
+                "search": "Search for User",
+                "view_edit_button": "View & Edit Details",
+                "include_deleted": "Include Deleted"
+            },
+            "detail": {
+                "breadcrumb_section": "User Details",
+                "first_name_field": "First Name",
+                "last_name_field": "Last Name",
+                "title_field": "Title",
+                "email_field": "Email",
+                "boss_field": "Boss / Manager",
+                "password_field": "New Password",
+                "password_confirm_field": "Confirm New Password",
+                "culture_field": "Language/Country",
+                "timezone_field": "Timezone",
+                "save_button": "Save User",
+                "delete_button": "Delete User",
+                "update_password_button": "Update Password",
+                "choose_image_button": "Choose Image File",
+                "created_on": "Created On:",
+                "password_updated_on": "Password Updated On:",
+                "last_updated_on": "Last Updated On:",
+                "deleted_on": "Deleted On:",
+                "crop": "Crop",
+                "rotate": "Rotate",
+                "timezone": "Time Zone:",
+                "culture": "Language & Country",
+                "role_field": "Role",
+                "general_tab": "General",
+                "image_tab": "Image Profile",
+                "password_tab": "Password",
+                "details_tab": "Details",
+                "history_tab": "Audits",
+                "update_image_button": "Save",
+                "undelete_button": "Undelete User"
+            },
+            "messages": {
+                "first_name_required": "First Name is required.",
+                "last_name_required": "Last Name is required.",
+                "email_required": "Email is required.",
+                "role_required": "Role is required.",
+                "password_required": "Password is required.",
+                "password_min": "Password must have at least {min} characters with at least one upper case letter, one number, and one special character.",
+                "password_identical_confirm": "Passwords must match.",
+                "user_created": "User created. Consider uploading a photo!",
+                "input_file_placeholder": "Choose a file or drop it here...",
+                "user_updated": "User {name} was updated!",
+                "password_updated": "Password for user {name} was updated!",
+                "image_updated": "Image for user {name} was updated!",
+                "delete_title": "Are you sure?",
+                "delete_text": "You won't be able to revert this!",
+                "delete_confirm_button": "Yes, delete it!",
+                "deleted_title": "Deleted",
+                "deleted_success": "User has been deleted.",
+                "undeleted_success": "User {name} was  undeleted."
+            }, 
+            "tooltips": {
+                "delete_user": "Delete User",
+                "undelete_user": "Undelete User"
+            }
+        },
+        "template": {
+            "navigation": {
+                "dashboard": "Dashboard",
+                "settings": {
+                    "main": "Settings",
+                    "vendors": "Vendors",
+                    "portal_themes": "Portal Themes"
+                },
+                "activity": "Activity Stream",
+                "templates": "Templates",
+                "assets": "Assets",
+                "workflows": "Workflows",
+                "products": "Products",
+                "audits": "Audits"
+            }
+        },
+        "audits": {
+            "list": {
+                "select_user": "Select User",
+                "select_type": "Select Type",
+                "from_date": "From Date:",
+                "to_date": "To Date:",
+                "column_dateTime": "Date/Time",
+                "column_User": "User",
+                "column_action": "Action",
+                "column_target": "Target",
+                "column_status": "Status",
+                "column_ip": "IP Address",
+                "view_audits": "View Audits",
+                "all_users": "All Users",
+                "all_types": "All Types",
+                "action_type": "Select Action Type"
+            },
+            "detail": {
+                "action_by": "Action Performed By:",
+                "action_on": "Action Performed On:",
+                "action": "Action Performed:",
+                "action_result": "Result:",
+                "log_message": "Log Message (If Any):",
+                "log_geo_ip": "Geo-IP:",
+                "geo_longitude": "Longitude:",
+                "geo_latitude": "Latitude:"
+            },
+            "targetHistory": {
+                "title": "History",
+                "more_details": "More Details",
+                "less_details": "Fewer Details",
+                "by": "By:",
+                "error_message": "Error Message (If Any):",
+                "log_message": "Log Message (If Any):",
+                "more_history": "More History",
+                "ip": "IP: ",
+                "lat_long": "Lat/Long: "
+            },
+            "operations": {
+                "VendorUpdate": "Vendor Update",
+                "VendorCreate": "Vendor Creation",
+                "VendorRead": "Vendor View",
+                "VendorDelete": "Vendor Deletion",
+                "VendorReadList": "Vendor List View"
+            },
+            "error_codes": {
+                "noPermission": "No Permission",
+                "duplicateEntry": "Duplicate Entry",
+                "error": "Error",
+                "requestingAccountNotValid": "Requesting user account not currently valid",
+                "notFound": "Not Found",
+                "subcriberIdNotMatch": "Account mismatch",
+                "User_PasswordInsufficientComplexity": "Insufficient password complexity"
+            },
+            "actions": {
+                "none": "All Action Types",
+                "create": "Create", 
+                "read": "Read", 
+                "update": "Update", 
+                "delete": "Delete", 
+                "list": "List", 
+                "info": "Info", 
+                "undelete": "Undelete"
+            }
+        },
+        "dashboard": {
+            "users": "Users",
+            "assets": "Assets",
+            "users_legend": {
+                "active": "Active",
+                "deleted": "Deleted"
+            }
+        },
+        "settings": {
+            "vendors": {
+                "list": {
+                    "title": "Vendors",
+                    "add_button":"Add Vendor"
+                },
+                "details": {
+                    "breadcrumb_section": "Vendor Details",
+                    "name_field": "Name",
+                    "contact_field": "Contact Person",
+                    "phone_field": "Phone",
+                    "email": "Email",
+                    "address": "Address",
+                    "notes": "Notes",
+                    "logo_field": "Logo",
+                    "update_logo_info": "Click to update logo image",
+                    "created_on": "Created:",
+                    "last_updated_on": "Last Updated:",
+                    "delete_button": "Delete Vendor",
+                    "general_tab": "General"
+                },
+                "messages": {
+                    "created":"Vendor created",
+                    "name_required": "Name is required.",
+                    "contact_person_required": "Contact Person is required",
+                    "email_required": "Email is required",
+                    "address_required": "Address is required",
+                    "vendor_updated": "Vendor {name} was updated!",
+                    "delete_title": "Are you sure?",
+                    "delete_text": "You won't be able to revert this!",
+                    "delete_confirm_button": "Yes, delete it!",
+                    "deleted_title": "Deleted",
+                    "deleted_success": "Vendor has been deleted.",
+                    "undeleted_success": "Vendor {name} has been undeleted."
+                },
+                "tooltips": {
+                    "vendor_undelete":"Undelete Vendor"
+                }
+            },
+            "portal_themes": {
+                "list": {
+                    "title": "Portal Themes",
+                    "add_button": "Add Theme"
+                },
+                "details": {
+                    "breadcrumb_section": "Theme  Details",
+                    "layouts_tab": "Layout",
+                    "widgets_tab": "Widgets",
+                    "menus_tab": "Menus",
+                    "inside_page_layouts": "Insige Page Layouts",
+                    "style": "Style"
+                },
+                "menus": {
+                    "static_menu": "General",
+                    "static_menu_list": ["Parent Menu","External Link"],
+                    "title_field": "Title",
+                    "menu_title": "Menu Title",
+                    "panel_title": "Edit Panel",
+                    "edit_menu": "Edit Menu",
+                    "check_box": "Is a Mega Menu",
+                    "lorem_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "messages": {
+                        "title_required": "Title is required",
+                        "external_required": "External link is required",
+                        "type_required": "Type is required",
+                        "point_required": "Points To is required",
+                        "created": "Menu created"
+                    }
+                },
+                "modal": {
+                    "title_field": "Title",
+                    "type_field": "Type",
+                    "delete_confirm": "Do you want to remove really?",
+                    "external_link": "External Link",
+                    "parent_title": "Parent Menu",
+                    "child_title": "Edit Menu Item",
+                    "delete_title": "Delete Confirm",
+                    "point_field": "Points To",
+                    "add_menu": "Add Menu",
+                    "open_tab": "Open in New Tab"
+                }
+            }
+        },
+        "general": {
+            "tooltips": {
+                "back_button": "Back"
+            },
+            "notAllowed": {
+                "title": "401",
+                "subtitle": "Missing Permissions",
+                "message": "Sorry! You don't have permission to access this page",
+                "home_button": "Go back to home"
+            },
+            "list": {
+                "search":"Search",
+                "include_deleted": "Show Deleted",
+                "label_deleted": "Deleted",
+                "label_delete": "Delete",
+                "add_button": "Add",
+                "save_button": "Save",
+                "back_button": "Back",
+                "cancel_button": "Cancel",
+                "details_button": "See Details"
+            }, 
+            "details": {
+                "history_tab": "Audits"
+            },
+            "components": {
+                "upload_image_label": "Click or drag and drop to add new image"
+            }
+        },
+        "server": {
+            "error": {
+            }
+        }
+    }
+}

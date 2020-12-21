@@ -1,0 +1,39 @@
+$solid-colors: (
+  "blue": #2250BA,
+  "midnight-blue": #000536,
+  "indigo": #022178,
+  "dark-purple": #322740,
+  "purple": #663399,
+  "pink": #CB3066,
+  "red": #DE1A3B,
+  "orange": #FF5E00,
+  "yellow": #FFC107,
+  "green": #2EA349,
+  "teal": #20C997,
+  "cyan": #1C8BEB,
+  "gray": #2D2D33,
+  "slate-gray": #405365,
+  "light-blue": #54C3FF,
+  "primary-pastel-01": #C5D4EB,
+  "primary-pastel-02": #DBE8FB
+);
+
+// Gradient colors
+$gradient-colors: (
+  gradient-purple-indigo: (
+    "start-color": #663399,
+    "end-color": #33214b
+  ),
+  gradient-black-blue: (
+    "start-color": #004e92,
+    "end-color": #000428
+  ),
+  gradient-black-gray: (
+    "start-color": #404040,
+    "end-color": #000000
+  ),
+  gradient-steel-gray: (
+    "start-color": #616d86,
+    "end-color": #1f1c2c
+  )
+);

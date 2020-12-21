@@ -1,0 +1,631 @@
+[{
+        "function": "ABS",
+        "description": "Calculates the absolute value of a number.",
+        "syntax": "ABS(number)"
+    },
+    {
+        "function": "AND",
+        "description": "Checks whether all conditions are met. TRUE/FALSE",
+        "syntax": "AND(logical1,logical2)"
+    },
+    {
+        "function": "AVERAGE",
+        "description": "Averages numbers.",
+        "syntax": "AVERAGE(number1,number2)"
+    },
+    {
+        "function": "AVERAGEA",
+        "description": "Averages numbers. Includes text & FALSE =0, TRUE =1.",
+        "syntax": "AVERAGEA(value1,value2)"
+    },
+    {
+        "function": "AVERAGEIF",
+        "description": "Averages numbers that meet a criteria.",
+        "syntax": "AVERAGEIF(range,criteria,average_range)"
+    },
+    {
+        "function": "AVERAGEIFS",
+        "description": "Averages numbers that meet multiple criteria.",
+        "syntax": "AVERAGEIFS(average_range,criteria_range,criteria)"
+    },
+    {
+        "function": "CEILING",
+        "description": "Rounds a number up, to the nearest specified multiple.",
+        "syntax": "CEILING(number,significance)"
+    },
+    {
+        "function": "CHAR",
+        "description": "Returns a character specified by a code.",
+        "syntax": "CHAR(number)"
+    },
+    {
+        "function": "CLEAN",
+        "description": "Removes all non-printable characters.",
+        "syntax": "CLEAN(text)"
+    },
+    {
+        "function": "CODE",
+        "description": "Returns the numeric code for a character.",
+        "syntax": "CODE(text)"
+    },
+    {
+        "function": "CONCATENATE",
+        "description": "Combines text together.",
+        "syntax": "CONCATENATE(text1,text2)"
+    },
+    {
+        "function": "CORREL",
+        "description": "Calculates the correlation of two series.",
+        "syntax": "CORREL(array1,array2)"
+    },
+    {
+        "function": "COS",
+        "description": "Returns the cosine of an angle.",
+        "syntax": "COS(number)"
+    },
+    {
+        "function": "COUNT",
+        "description": "Counts cells that contain a number.",
+        "syntax": "COUNT(value1,value2)"
+    },
+    {
+        "function": "COUNTA",
+        "description": "Count cells that are non-blank.",
+        "syntax": "COUNTA(value1,value2)"
+    },
+    {
+        "function": "COUNTBLANK",
+        "description": "Counts cells that are blank.",
+        "syntax": "COUNTBLANK(range)"
+    },
+    {
+        "function": "COUNTIF",
+        "description": "Counts cells that meet a criteria.",
+        "syntax": "COUNTIF(range,criteria)"
+    },
+    {
+        "function": "COUNTIFS",
+        "description": "Counts cells that meet multiple criteria.",
+        "syntax": "COUNTIFS(criteria_range,criteria)"
+    },
+    {
+        "function": "DATE",
+        "description": "Returns a date from year, month, and day.",
+        "syntax": "DATE(year,month,day)"
+    },
+    {
+        "function": "DATEVALUE",
+        "description": "Converts a date stored as text into a valid date",
+        "syntax": "DATEVALUE(date_text)"
+    },
+    {
+        "function": "DAY",
+        "description": "Returns the day as a number (1-31).",
+        "syntax": "DAY(serial_number)"
+    },
+    {
+        "function": "DAYS",
+        "description": "Returns the number of days between two dates.",
+        "syntax": "DAYS(end_date,start_date)"
+    },
+    {
+        "function": "DAYS360",
+        "description": "Returns days between 2 dates in a 360 day year.",
+        "syntax": "DAYS360(start_date,end_date,method)"
+    },
+    {
+        "function": "DEGREES",
+        "description": "Converts radians to degrees.",
+        "syntax": "DEGREES(angle)"
+    },
+    {
+        "function": "DOLLAR",
+        "description": "Converts a number to text in currency format.",
+        "syntax": "DOLLAR(number,decimals)"
+    },
+    {
+        "function": "EDATE",
+        "description": "Returns a date, n months away from a start date.",
+        "syntax": "EDATE(start_date,months)"
+    },
+    {
+        "function": "EVEN",
+        "description": "Rounds to the nearest even integer.",
+        "syntax": "EVEN(number)"
+    },
+    {
+        "function": "EXACT",
+        "description": "Test if cells are exactly equal. Case-sensitive. TRUE/FALSE",
+        "syntax": "EXACT(text1,text2)"
+    },
+    {
+        "function": "EXP",
+        "description": "Calculates the exponential value for a given number.",
+        "syntax": "EXP(number)"
+    },
+    {
+        "function": "FACT",
+        "description": "Returns the factorial.",
+        "syntax": "FACT(number)"
+    },
+    {
+        "function": "FIND",
+        "description": "Locates position of text within a cell.Case-sensitive.",
+        "syntax": "FIND(find_text,within_text,start_num)"
+    },
+    {
+        "function": "FLOOR",
+        "description": "Rounds a number down, to the nearest specified multiple.",
+        "syntax": "FLOOR(number,significance)"
+    },
+    {
+        "function": "FORECAST",
+        "description": "Predict future y-values from linear trend line.",
+        "syntax": "FORECAST(x,known_y's,known_x's)"
+    },
+    {
+        "function": "GCD",
+        "description": "Returns the greatest common divisor.",
+        "syntax": "GCD(number1,number2)"
+    },
+    {
+        "function": "GROWTH",
+        "description": "Calculates Y values based on exponential growth.",
+        "syntax": "GROWTH(known_ys,known_x,new_x,const)"
+    },
+    {
+        "function": "HOUR",
+        "description": "Returns the hour as a number (0-23).",
+        "syntax": "HOUR(serial_number)"
+    },
+    {
+        "function": "IF",
+        "description": "If condition is met, do something, if not, do something else.",
+        "syntax": "IF(logical_test,value_if_true,value_if_false)"
+    },
+    {
+        "function": "IFERROR",
+        "description": "If result is an error then do something else.",
+        "syntax": "IFERROR(VALUE,value_if_error)"
+    },
+    {
+        "function": "INT",
+        "description": "Rounds a number down to the nearest integer.",
+        "syntax": "INT(number)"
+    },
+    {
+        "function": "INTERCEPT",
+        "description": "Calculates the Y intercept for a best-fit line.",
+        "syntax": "INTERCEPT(known_ys,known_xs)"
+    },
+    {
+        "function": "ISBLANK",
+        "description": "Test if cell is blank. TRUE/FALSE",
+        "syntax": "ISBLANK(VALUE)"
+    },
+    {
+        "function": "ISERR",
+        "description": "Test if cell value is an error, ignores #N/A. TRUE/FALSE",
+        "syntax": "ISERR(VALUE)"
+    },
+    {
+        "function": "ISERROR",
+        "description": "Test if cell value is an error. TRUE/FALSE",
+        "syntax": "ISERROR(VALUE)"
+    },
+    {
+        "function": "ISEVEN",
+        "description": "Test if cell value is even. TRUE/FALSE",
+        "syntax": "ISEVEN(number)"
+    },
+    {
+        "function": "ISLOGICAL",
+        "description": "Test if cell is logical (TRUE or FALSE). TRUE/FALSE",
+        "syntax": "ISLOGICAL(VALUE)"
+    },
+    {
+        "function": "ISNA",
+        "description": "Test if cell value is #N/A. TRUE/FALSE",
+        "syntax": "ISNA(VALUE)"
+    },
+    {
+        "function": "ISNONTEXT",
+        "description": "Test if cell is not text (blank cells are not text). TRUE/FALSE",
+        "syntax": "ISNONTEXT(VALUE)"
+    },
+    {
+        "function": "ISNUMBER",
+        "description": "Test if cell is a number. TRUE/FALSE",
+        "syntax": "ISNUMBER(VALUE)"
+    },
+    {
+        "function": "ISODD",
+        "description": "Test if cell value is odd. TRUE/FALSE",
+        "syntax": "ISODD(number)"
+    },
+    {
+        "function": "ISTEXT",
+        "description": "Test if cell is text. TRUE/FALSE",
+        "syntax": "ISTEXT(VALUE)"
+    },
+    {
+        "function": "LARGE",
+        "description": "Returns the kth largest value.",
+        "syntax": "LARGE(array,k)"
+    },
+    {
+        "function": "LCM",
+        "description": "Returns the least common multiple.",
+        "syntax": "LCM(number1,number2)"
+    },
+    {
+        "function": "LEFT",
+        "description": "Truncates text a number of characters from the left.",
+        "syntax": "LEFT(text,num_chars)"
+    },
+    {
+        "function": "LEN",
+        "description": "Counts number of characters in text.",
+        "syntax": "LEN(text)"
+    },
+    {
+        "function": "LN",
+        "description": "Returns the natural logarithm of a number.",
+        "syntax": "LN(number)"
+    },
+    {
+        "function": "LOG",
+        "description": "Returns the logarithm of a number to a specified base.",
+        "syntax": "LOG(number,base)"
+    },
+    {
+        "function": "LOG10",
+        "description": "Returns the base-10 logarithm of a number.",
+        "syntax": "LOG10(number)"
+    },
+    {
+        "function": "LOWER",
+        "description": "Converts text to lower case.",
+        "syntax": "LOWER(text)"
+    },
+    {
+        "function": "MAX",
+        "description": "Returns the largest number.",
+        "syntax": "MAX(number1,number2)"
+    },
+    {
+        "function": "MEDIAN",
+        "description": "Returns the median number.",
+        "syntax": "MEDIAN(number1,number2)"
+    },
+    {
+        "function": "MID",
+        "description": "Extracts text from the middle of a cell.",
+        "syntax": "MID(text,start_num,num_chars)"
+    },
+    {
+        "function": "MIN",
+        "description": "Returns the smallest number.",
+        "syntax": "MIN(number1,number2)"
+    },
+    {
+        "function": "MINUTE",
+        "description": "Returns the minute as a number (0-59).",
+        "syntax": "MINUTE(serial_number)"
+    },
+    {
+        "function": "MOD",
+        "description": "Returns the remainder after dividing.",
+        "syntax": "MOD(number,divisor)"
+    },
+    {
+        "function": "MODE",
+        "description": "Returns the most common number.",
+        "syntax": "MODE(number1,number2)"
+    },
+    {
+        "function": "MONTH",
+        "description": "Returns the month as a number (1-12).",
+        "syntax": "MONTH(serial_number)"
+    },
+    {
+        "function": "MROUND",
+        "description": "Rounds a number to a specified multiple.",
+        "syntax": "MROUND(number,multiple)"
+    },
+    {
+        "function": "N",
+        "description": "Converts a value to a number.",
+        "syntax": "N(VALUE)"
+    },
+    {
+        "function": "NETWORKDAYS",
+        "description": "Number of working days between 2 dates.",
+        "syntax": "NETWORKDAYS(start_date,end_date,holidays)"
+    },
+    {
+        "function": "NOT",
+        "description": "Changes TRUE to FALSE and FALSE to TRUE.",
+        "syntax": "NOT(logical)"
+    },
+    {
+        "function": "NOW",
+        "description": "Returns the current date and time.",
+        "syntax": "NOW()"
+    },
+    {
+        "function": "ODD",
+        "description": "Rounds to the nearest odd integer.",
+        "syntax": "ODD(number)"
+    },
+    {
+        "function": "OR",
+        "description": "Checks whether any conditions are met. TRUE/FALSE",
+        "syntax": "OR(logical1,logical2)"
+    },
+    {
+        "function": "PERCENTILE",
+        "description": "Returns the kth percentile.",
+        "syntax": "PERCENTILE(array,k)"
+    },
+    {
+        "function": "PI",
+        "description": "The value of PI.",
+        "syntax": "PI()"
+    },
+    {
+        "function": "POWER",
+        "description": "Calculates a number raised to a power.",
+        "syntax": "POWER(number,power)"
+    },
+    {
+        "function": "PRODUCT",
+        "description": "Multiplies an array of numbers.",
+        "syntax": "PRODUCT(number1,number2)"
+    },
+    {
+        "function": "PROPER",
+        "description": "Converts text to proper case.",
+        "syntax": "PROPER(text)"
+    },
+    {
+        "function": "QUARTILE",
+        "description": "Returns the specified quartile value.",
+        "syntax": "QUARTILE(array,quart)"
+    },
+    {
+        "function": "QUOTIENT",
+        "description": "Returns the integer result of division.",
+        "syntax": "QUOTIENT(numerator,denominator)"
+    },
+    {
+        "function": "RADIANS",
+        "description": "Converts an angle into radians.",
+        "syntax": "RADIANS(angle)"
+    },
+    {
+        "function": "RAND",
+        "description": "Calculates a random number between 0 and 1.",
+        "syntax": "RAND()"
+    },
+    {
+        "function": "RANDBETWEEN",
+        "description": "Calculates a random number between two numbers.",
+        "syntax": "RANDBETWEEN(bottom,top)"
+    },
+    {
+        "function": "RANK",
+        "description": "Rank of a number within a series.",
+        "syntax": "RANK(number,ref,order)"
+    },
+    {
+        "function": "REPLACE",
+        "description": "Replaces text based on it's location.",
+        "syntax": "REPLACE(old_text,start_num,num_chars,new_text)"
+    },
+    {
+        "function": "REPT",
+        "description": "Repeats text a number of times.",
+        "syntax": "REPT(text,number_times)"
+    },
+    {
+        "function": "RIGHT",
+        "description": "Truncates text a number of characters from the right.",
+        "syntax": "RIGHT(text,num_chars)"
+    },
+    {
+        "function": "ROUND",
+        "description": "Rounds a number to a specified number of digits.",
+        "syntax": "ROUND(number,num_digits)"
+    },
+    {
+        "function": "ROUNDDOWN",
+        "description": "Rounds a number down (towards zero).",
+        "syntax": "ROUNDDOWN(number,num_digits)"
+    },
+    {
+        "function": "ROUNDUP",
+        "description": "Rounds a number up (away from zero).",
+        "syntax": "ROUNDUP(number,num_digits)"
+    },
+    {
+        "function": "SEARCH",
+        "description": "Locates position of text within a cell.Not Case-sensitive.",
+        "syntax": "SEARCH(find_text,within_text,start_num)"
+    },
+    {
+        "function": "SECOND",
+        "description": "Returns the second as a number (0-59)",
+        "syntax": "SECOND(serial_number)"
+    },
+    {
+        "function": "SIGN",
+        "description": "Returns the sign of a number.",
+        "syntax": "SIGN(number)"
+    },
+    {
+        "function": "SIN",
+        "description": "Returns the sine of an angle.",
+        "syntax": "SIN(number)"
+    },
+    {
+        "function": "SLOPE",
+        "description": "Calculates the slope from linear regression.",
+        "syntax": "SLOPE(known_ys,known_xs)"
+    },
+    {
+        "function": "SMALL",
+        "description": "Returns the kth smallest value.",
+        "syntax": "SMALL(array,k)"
+    },
+    {
+        "function": "SQRT",
+        "description": "Calculates the square root of a number.",
+        "syntax": "SQRT(number)"
+    },
+    {
+        "function": "STATS",
+        "description": "YES",
+        "syntax": ""
+    },
+    {
+        "function": "STDEV",
+        "description": "Calculates the standard deviation.",
+        "syntax": "STDEV(number1,number2)"
+    },
+    {
+        "function": "STDEV.P",
+        "description": "Calculates the SD of an entire population.",
+        "syntax": "STDEV.P(number1,number2)"
+    },
+    {
+        "function": "STDEV.S",
+        "description": "Calculates the SD of a sample.",
+        "syntax": "STDEV.S(number1,number2)"
+    },
+    {
+        "function": "STDEVP",
+        "description": "Calculates the SD of an entire population",
+        "syntax": "STDEVP(number1,number2)"
+    },
+    {
+        "function": "SUBSTITUTE",
+        "description": "Finds and replaces text. Case-sensitive.",
+        "syntax": "SUBSTITUTE(text,old_text,new_text,instance_num)"
+    },
+    {
+        "function": "SUBTOTAL",
+        "description": "Returns a summary statistic for a series of data.",
+        "syntax": "SUBTOTAL(function_num,REH1)"
+    },
+    {
+        "function": "SUM",
+        "description": "Adds numbers together.",
+        "syntax": "SUM(number1,number2)"
+    },
+    {
+        "function": "SUMIF",
+        "description": "Sums numbers that meet a criteria.",
+        "syntax": "SUMIF(range,criteria,sum_range)"
+    },
+    {
+        "function": "SUMIFS",
+        "description": "Sums numbers that meet multiple criteria.",
+        "syntax": "SUMIFS(sum_range,criteria_range,criteria)"
+    },
+    {
+        "function": "SUMPRODUCT",
+        "description": "Multiplies arrays of numbers and sums the resultant array.",
+        "syntax": "SUMPRODUCT(array1,array2,array3)"
+    },
+    {
+        "function": "TAN",
+        "description": "Returns the tangent of an angle.",
+        "syntax": "TAN(number)"
+    },
+    {
+        "function": "TEXT",
+        "description": "Converts a value into text with a specific number format.",
+        "syntax": "TEXT(VALUE,format_text)"
+    },
+    {
+        "function": "TIME",
+        "description": "Returns the time from a hour, minute, and second.",
+        "syntax": "TIME(hour,minute,second)"
+    },
+    {
+        "function": "TIMEVALUE",
+        "description": "Converts a time stored as text into a valid time.",
+        "syntax": "TIMEVALUE(time_text)"
+    },
+    {
+        "function": "TODAY",
+        "description": "Returns the current date.",
+        "syntax": "TODAY()"
+    },
+    {
+        "function": "TREND",
+        "description": "Calculates Y values based on a trendline.",
+        "syntax": "TREND(known_ys,known_xs,new_xs,const)"
+    },
+    {
+        "function": "TRIM",
+        "description": "Removes all extra spaces from text.",
+        "syntax": "TRIM(text)"
+    },
+    {
+        "function": "TRUNC",
+        "description": "Truncates a number to a specific number of digits.",
+        "syntax": "TRUNC(number,num_digits)"
+    },
+    {
+        "function": "TYPE",
+        "description": "Returns the type of value in a cell.",
+        "syntax": "TYPE(VALUE)"
+    },
+    {
+        "function": "UPPER",
+        "description": "Converts text to upper case.",
+        "syntax": "UPPER(text)"
+    },
+    {
+        "function": "VALUE",
+        "description": "Converts a number stored as text into a number.",
+        "syntax": "VALUE(text)"
+    },
+    {
+        "function": "WEEKDAY",
+        "description": "Returns the day of the week as a number (1-7).",
+        "syntax": "WEEKDAY(serial_number,return_type)"
+    },
+    {
+        "function": "WEEKNUM",
+        "description": "Returns the week number in a year (1-52).",
+        "syntax": "WEEKNUM(serial_number,return_type)"
+    },
+    {
+        "function": "WORKDAY",
+        "description": "The date n working days from a date.",
+        "syntax": "WORKDAY(start_date,days,holidays)"
+    },
+    {
+        "function": "WORKDAY.INTL",
+        "description": "The date n working days from a date, custom weekends.",
+        "syntax": "WORKDAY.INTL(start_date,days,weekend,holidays)"
+    },
+    {
+        "function": "XOR",
+        "description": "Checks whether one and only one condition is met. TRUE/FALSE",
+        "syntax": "XOR(logical1,logical2)"
+    },
+    {
+        "function": "YEAR",
+        "description": "Returns the year.",
+        "syntax": "YEAR(serial_number)"
+    },
+    {
+        "function": "YEARFRAC",
+        "description": "Returns the fraction of a year between 2 dates.",
+        "syntax": "YEARFRAC(start_date,end_date,basis)"
+    }
+]
